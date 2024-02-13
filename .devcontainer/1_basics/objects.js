@@ -34,7 +34,7 @@ const obj4 = new Object(); //singleton object
 
 
 let show2={...obj, ...obj3}; 
-console.log(show2);
+//console.log(show2);
 
 // Object.assign
 // Object.keys
@@ -43,3 +43,30 @@ console.log(show2);
 // hasownproperty
 
 //these are the properties and many more properties of objects are available.
+
+
+const dest = {
+    name: "shiavm",
+    age: 25,
+    hobby: "cricket"
+}
+
+const {hobby} = dest; // object destructure
+console.log(hobby);
+
+//json example
+// {
+//     "name": "avi",
+//     "class": 4,
+//     "age":9
+//     "school": "modern public school"
+// }
+
+// it is also a example of json
+[
+    {},
+    {},
+    {}
+]
+
+
