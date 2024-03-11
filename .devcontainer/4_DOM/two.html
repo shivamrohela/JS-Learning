@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body style="background-color: black; color: white;">
+  <ul class="language">
+    <li>JavaScript</li>
+  </ul>
+</body>
+<script>
+
+// add
+  function addlan(lan){
+    const li = document.createElement("li")
+    li.innerHTML = `${lan}`
+    document.querySelector(".language").appendChild(li)
+  }
+
+  addlan("java")
+  addlan("python")
+
+  function optiadd(lan){
+    const li = document.createElement("li")
+    li.appendChild(document.createTextNode(lan))
+    document.querySelector(".language").appendChild(li)
+  }
+
+  optiadd("reactjs")
+  optiadd("nextjs")
+
+  //edit
+  const seclan = document.querySelector("li:nth-child(2)")
+  //seclan.innerHTML = "c#"
+
+  const newli = document.createElement("li")
+  newli.textContent = ".net"
+  seclan.replaceWith(newli)
+
+  const firlan = document.querySelector("li:first-child")
+  firlan.outerHTML = "<li>banila JavaScript </li>"
+
+  //remove
+
+  const rem = document.querySelector("li:last-child")
+  rem.remove()
+
+
+</script>
+</html>
