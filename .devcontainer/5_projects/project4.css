@@ -1,0 +1,73 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background-color: bisque;
+  }
+  
+  /* Center content */
+  #wrapper {
+    text-align: center;
+  }
+  
+  /* Heading style */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph style */
+  p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Form styling */
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  #guess {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  /* Input field styling */
+  .guessfield {
+    padding: 5px;
+    font-size: 16px;
+    width: 150px;
+  }
+  
+  /* Submit button styling */
+  .guesssubmit {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Result paragraph styling */
+  .resultpas {
+    font-size: 18px;
+  }
+  
+  /* Guesses styling */
+  .guesses {
+    font-weight: bold;
+  }
+  
+  /* Last result styling */
+  .lastresult {
+    font-weight: bold;
+  }
+  
+  /* Low or high message styling */
+  .lowOrHi {
+    font-style: italic;
+  }
+  
