@@ -1,0 +1,24 @@
+body{
+    background-color: coral;
+  }
+  /* Center the content */
+  .center {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+  }
+  
+  /* Style the banner */
+  #banner {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the clock */
+  #clock {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
