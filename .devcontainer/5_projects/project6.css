@@ -1,0 +1,56 @@
+/* Style for the project container */
+.project {
+    width: 80%; 
+    height: 80%; 
+    background-color: #f0f0f0; 
+    padding: 20px; 
+  }
+  
+  /* Style for the insert container */
+  #insert {
+    width: 80%; 
+    height: 80%; 
+    background-color: #fff; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px; 
+  }
+  
+  /* Style for the key element */
+  .key {
+    font-size: 16px; 
+    color: #333; 
+    font-weight: bold; 
+  }
+  
+  /* Style for the table */
+  table {
+    width: 100%; 
+    border-collapse: collapse;
+    margin-bottom: 20px; 
+  }
+  
+  /* Style for table header */
+  th {
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style for table data */
+  td {
+    border: 1px solid #ccc; 
+    padding: 8px;
+  }
+  
+  /* Alternate row background color */
+  tr:nth-child(even) {
+    background-color: #f9f9f9; 
+  }
+  
+  /* Hover effect */
+  tr:hover {
+    background-color: #f5f5f5; 
+  }
+  
